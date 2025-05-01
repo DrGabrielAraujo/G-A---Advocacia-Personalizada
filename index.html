@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G | A - Advocacia Personalizada</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .black {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .black h2, .black h1 {
+      color: #87e0ff;
+    }
+
+    .white {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .white h2 {
+      color: #000;
+    }
+
+    .intro-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 1200px;
+      width: 100%;
+      gap: 2rem;
+    }
+
+    .intro-text {
+      flex: 1;
+      text-align: justify;
+      padding: 1rem;
+    }
+
+    .intro-text h2 {
+      margin-bottom: 1.5rem;
+      color: #000;
+      text-align: left;
+    }
+
+    .intro-text p {
+      text-indent: 1.5em;
+      margin-bottom: 1.2em;
+      line-height: 1.6;
+    }
+
+    .intro-text p::before {
+      content: "• ";
+      color: #000;
+      font-weight: bold;
+    }
+
+    .intro-image {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .intro-image img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      margin-top: 1.5rem;
+      background-color: #000;
+      color: #fff;
+      padding: 0.9rem 1.5rem;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    img.logo-medio {
+      width: 320px;
+      margin-bottom: 2rem;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #87e0ff;
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      background: #000;
+      color: #aaa;
+    }
+  
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.card .icon {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-bottom: 0.8rem;
+  color: #000;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Tela 1: Preto com logo e subtítulo -->
+  <section class="black" style="background-image: url('fundo-topo.jpg'); background-size: cover; background-position: center;">
+    <div style="background-color: rgba(0, 0, 0, 0.7); padding: 2rem; border-radius: 8px;">
+      <img class="logo-medio" src="logo.png" alt="Logo G | A" />
+      <p>Atuação completa e acessível em direito Cível, Família, Trabalho, Consumo, Saúde e Previdência, com foco na sua necessidade.</p>
+    </div>
+  </section>
+
+  <!-- Tela 2: Branco com título, texto à esquerda e imagem à direita -->
+  <section class="white">
+    <div class="intro-content">
+      <div class="intro-text">
+        <h2>Quem somos</h2>
+        <p>Na linha de frente da advocacia moderna, o escritório G | A - Advocacia Personalizada nasceu com o propósito de aproximar a Justiça das pessoas e tornar o acesso aos direitos mais simples, humano e eficiente.</p>
+        <p>Com atuação em todo o território nacional, oferecemos um atendimento acessível e estratégico nas áreas Cível, Trabalhista, Família, Consumidor, Administrativo, Saúde e Previdenciária, com especialidade em Direito à Saúde e forte atuação no combate a fraudes previdenciárias.</p>
+        <p>Unindo experiência prática, sensibilidade social e recursos tecnológicos, buscamos soluções jurídicas ágeis, eficazes e voltadas à realidade de cada cliente. Mais do que resolver processos, nos comprometemos com histórias, com pessoas e com a construção de relações baseadas na confiança, na ética e no comprometimento com a Justiça.</p>
+        <a class="whatsapp-button" href="https://wa.me/5512997213362" target="_blank">
+          <span style="display: inline-flex; align-items: center; gap: 0.5rem;">
+            <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" style="width: 20px; height: 20px;">
+            Entre em contato
+          </span>
+        </a>
+      </div>
+      <div class="intro-image">
+        <img src="foto-gabriel.jpg" alt="Foto Gabriel Araújo" />
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Tela 3: Serviços práticos -->
+  <section class="white">
+    <div style="text-align: center; width: 100%; margin-bottom: 2rem;">
+      <h2 style="color: #000;">Atuação prática do nosso escritório.</h2>
+    </div>
+    <div class="service-cards">
+      <div class="card">
+        <div class="icon">🩺</div>
+        <h3>Direito à Saúde</h3>
+        <p>Quando o plano de saúde ou o SUS nega exames, cirurgias ou tratamentos essenciais, o cidadão não está desamparado. Atuamos para garantir judicialmente o acesso rápido e efetivo ao atendimento de saúde, com foco no que é justo e necessário para cada pessoa.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📑</div>
+        <h3>Fraudes no INSS</h3>
+        <p>Milhares de aposentados e pensionistas foram surpreendidos por descontos indevidos em seus benefícios, ligados a supostas associações e serviços não autorizados. Oferecemos orientação jurídica para identificar e enfrentar esse tipo de irregularidade, buscando a reparação dos valores cobrados injustamente.</p>
+      </div>
+      <div class="card">
+        <div class="icon">👨‍👩‍👧</div>
+        <h3>Direito de Família</h3>
+        <p>Divórcio, pensão alimentícia, guarda de filhos, inventário e partilha de bens são situações delicadas que exigem cuidado, clareza e responsabilidade. Atuamos com escuta, respeito e soluções jurídicas eficazes para proteger seus direitos e os laços familiares.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Tela 4: Contato -->
+  <section class="white">
+    <h2>Fale comigo</h2>
+    <p>Entre em contato diretamente pelo WhatsApp ou acompanhe nas redes sociais:</p>
+    <a class="button" href="https://wa.me/5512997213362" target="_blank">Fale comigo no WhatsApp</a>
+    <p>Instagram: @draraujogabriel<br>Email: dr.araujo.gabriel@gmail.com</p>
+  </section>
+
+  <!-- Tela 4: Preto (Encerramento) -->
+  <section class="black">
+    <h2>Gabriel Araújo - Advocacia Personalizada</h2>
+    <p>Atendimento com responsabilidade, ética e proximidade.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Gabriel Araújo - Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
